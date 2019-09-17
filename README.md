@@ -4,7 +4,7 @@
   </a>
 </p>
 
-![Workflow Status](https://github.com/bitwyre/template-python/workflows/.github/workflows/pythonpackage.yml/badge.svg)
+![Workflow Status](https://github.com/bitwyre/template-python/workflows/Python%20Package/badge.svg)
 
 # Repo/Module Name Here
 
