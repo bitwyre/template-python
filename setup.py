@@ -1,6 +1,7 @@
-from setuptools import setup, find_packages
-from os import path
 from io import open
+from os import path
+
+from setuptools import find_packages, setup
 
 here = path.abspath(path.dirname(__file__))
 
@@ -30,10 +31,7 @@ setup(
     packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
     python_requires="!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4",
     install_requires=[],  # Optional
-    extras_require={
-        "dev": ["check-manifest", "pep8", "mypy"],
-        "test": ["coverage", "pytest"],
-    },
+    extras_require={"dev": ["check-manifest", "pep8", "mypy"], "test": ["coverage", "pytest"]},
     entry_points={"console_scripts": ["public_api=template_python:cli"]},
     project_urls={
         "Bug Reports": "https://github.com/bitwyre/template-python/issues",
