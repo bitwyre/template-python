@@ -1,12 +1,10 @@
 <p align="center">
   <a href="https://github.com/bitwyre/interface">
-    <img src="https://github.com/bitwyre/interface/static/images/logo.png" alt="Logo" height="80" width="auto">
+    <img src="https://github.com/bitwyre/interface/blob/develop/static/images/logo.png?raw=true" alt="Logo" height="80" width="auto">
   </a>
 </p>
 
-<p align="center">
-  ![Workflow Status](https://github.com/bitwyre/template-python/workflows/.github/workflows/pythonpackage.yml/badge.svg)
-</p>
+![Workflow Status](https://github.com/bitwyre/template-python/workflows/.github/workflows/pythonpackage.yml/badge.svg)
 
 # Repo/Module Name Here
 
