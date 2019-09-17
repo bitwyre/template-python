@@ -9,7 +9,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="template_python",
+    name="Template Python",
     version="0.0.1",
     description="Bitwyre Python Repo Template",
     long_description=long_description,
@@ -32,7 +32,7 @@ setup(
     python_requires="!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4",
     install_requires=[],  # Optional
     extras_require={"dev": ["check-manifest", "pep8", "mypy"], "test": ["coverage", "pytest"]},
-    entry_points={"console_scripts": ["public_api=template_python:cli"]},
+    entry_points={"console_scripts": ["template_python=template_python:cli"]},
     project_urls={
         "Bug Reports": "https://github.com/bitwyre/template-python/issues",
         "Funding": "https://bitwyre.com",
