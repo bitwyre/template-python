@@ -22,16 +22,13 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         "License :: OSI Approved :: GNU GPLv3 License",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
     keywords="financial exchange cryptocurrency",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
-    python_requires="!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4",
+    python_requires=">=3.7.*, <4",
     install_requires=[],  # Optional
-    extras_require={"dev": ["check-manifest", "pep8", "mypy"], "test": ["coverage", "pytest"]},
+    extras_require={"dev": ["check-manifest", "pycodestyle", "mypy", "pre-commit"], "test": ["coverage", "pytest"]},
     entry_points={"console_scripts": ["template_python=template_python:cli"]},
     project_urls={
         "Bug Reports": "https://github.com/bitwyre/template-python/issues",
